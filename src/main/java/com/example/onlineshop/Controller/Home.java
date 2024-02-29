@@ -15,12 +15,12 @@ import java.util.List;
 public class Home {
 
     @GetMapping
-    public  Post(){
+    public void Post(){
         return ;
     }
 
     @GetMapping("{Category}")
-    public  Post(@PathVariable String Category){
+    public void Post(@PathVariable String Category){
         return ;
     }
 
